@@ -1,0 +1,13 @@
+folderName-> Quiz
+
+Table/Entity-> QuizEntity
+
+Controller-> QuizController
+
+Module-> QuizModule
+
+Service/Provider-> QuizService
+
+//controller ->service->repository
+//database activity will be done by repository,
+//data will be fetched by services, controller will interacter with services NOT repository.
